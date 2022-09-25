@@ -1,0 +1,1362 @@
+/* Version mobile first */
+*{
+	scroll-behavior: smooth;
+}
+body{
+
+	font-family: Raleway,sans-serif;
+	position: relative;
+	background: #f8f4ee;
+	height: 100%;
+}
+header{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	bottom: 0px;
+	margin-bottom: 0px;
+	
+}
+div#logoname a{
+	font-family: 'Oleo Script', cursive;
+}
+header div#logoname{
+	display: inline-block;
+	width: 65%;
+	height: 50px;
+	line-height: 30px;
+	margin: 0px;
+	margin-left: 5px;
+}
+header div#logoname > *{
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	color: rgb(0,0,0);
+	font-size: 1.1em;
+}
+header div#logoname figure{
+	width: 40px;
+	height: 50px;
+	margin: 0px;
+	margin-top: 5px;
+}
+header div#logoname figure img{
+	width: 100%;
+}
+#navmenu figure#showmenu{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin-right: 25px;
+	z-index: 99;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+#navmenu figure img{
+	width: 100%;
+}
+nav ul#hidemenu{
+	position: relative;
+	background: rgb(255,255,255);
+	height: 220px;
+	line-height: 40px;
+	list-style-type: none;
+	margin-top: 0px;
+	display: none;
+	text-align: left;
+	z-index: 99;
+}
+nav ul#hidemenu li a{
+	text-decoration: none;
+	position: relative;
+	color: black;
+	font-size: 0.9em;
+	font-weight: bold;
+
+}
+#showmenu.active{
+	background-color: blueviolet;
+}
+#hidemenu.active{
+	background-color: orange;
+}
+#navmenu.active{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 0;
+    margin-top: 0;
+    width: 50vw;
+    background-color: white;
+    z-index: 1;
+    height: 40vh;
+    
+}
+section#contenidoprincipal{
+	width: 100%;
+	position: relative;
+	top: 0px;
+	margin-top: 0px;
+}
+section#contenidoprincipal > *{
+	position: relative;
+	display: block;
+}
+.presentationservicio{
+	width: 90%;
+	height:750px;
+}
+.presentationservicio h1,
+.presentationservicio p{
+	position: relative;
+	margin-left: 10%;
+}
+.presentationservicio p{
+	transform: translateY(-10px);
+	color: #555;
+}
+.presentationservicio a,
+div#descriptivetext a{
+	display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 20px;
+    border-radius: 50px;
+    width: 70%;
+    margin-left: 5%;
+    padding: 20px;
+    color: black;
+}
+.seeplans{
+	background: black;
+	transform: translateY(20px);
+}
+a.seeplans{
+	color: white;
+}
+.bookcall{
+	background: rgba(255,255,255);
+	transform: translateY(5px);
+}
+.expertshopify{
+     width: 90%;
+	height: 270px;
+	margin-left: 0px;
+}
+.expertshopify img{
+	width: 100%;
+	z-index: 99;
+}
+div#trustcompany{
+    display: block;
+	width: 100%;
+	height: 180px; 
+    background: black;
+    opacity: 0.9;
+    transform: translateY(-15px);
+}
+div#trustcompany h6{
+	font-size: 1.1em;
+	color: silver;
+	text-align: center;
+	margin: 20px 0px;
+}
+#trustcompany :nth-last-child(4){
+	color: white;
+}
+div#company{
+	display: block;
+	transform: translateY(20px);
+}
+section#contenido2{
+	position: relative;
+	width: 100%;
+}
+
+div#themecustom{
+	height: 700px;
+	width: 90%;
+
+}
+div#themecustom h2{
+	width: 60%;
+	text-align: center;
+	font-size: 2.1em;
+	margin-left: 20%;
+	font-weight: bold;
+}
+div#themecustom p{
+	font-family: 'Arial', 'Serif';
+	margin-left: 25px;
+}
+div#themecustom li,
+div#designgraphic li{
+	font-family: 'Arial', 'Serif';
+	margin-left: 10px;
+}
+div#themecustom  span{
+    font-weight: bold;
+    font-size: 1.1em;
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+}
+#shopifyservices
+{
+	width: 90%;
+	position: relative;
+	margin-left: 5%;
+	height: 220px;
+}
+#shopifyservices img{
+	width: 100%;
+}
+div#designgraphic{
+	position: relative;
+	height: 530px;
+
+
+}
+div#designgraphic h2{
+	font-weight: bold;
+    font-size: 1.7em;
+    display: block;
+    position: relative;
+    margin-left: 25px;
+    padding-top: 30px;
+}
+div#designgraphic p{
+	font-family: 'Arial', 'Serif';
+	margin-left: 25px;
+}
+#shopifytasks
+{
+	width: 90%;
+	position: relative;
+	margin-left: 5%;
+	height: 220px;
+}
+#shopifytasks img{
+	width: 100%;
+}
+section#linkcontrol{
+	width: 100%;
+	height: 2600px;
+	background: #f8f4ee;
+}
+div#howitworks{
+	width: 90%;
+	height: 1050px;
+	background: #f8f4ee;
+	z-index: 99;
+	position: relative;
+	left: 5%;	
+}
+figure.bookcallicons{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	margin-left: 40%;
+	padding: 10px;
+
+}
+figure.bookcallicons img{
+	width: 100%;
+}
+
+div#howitworks > *{
+	position: relative;
+	display: block;
+	height: 200px;
+	margin-bottom: 10px;
+	background: white;
+}
+div#howitworks p span{
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+div#howitworks p{
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+}
+figure#sendericons{
+	transform: rotate(-50deg);
+}
+div#descriptivetext{
+	height: 380px;
+}
+div#descriptivetext a{
+	color: white;
+	position: relative;
+	margin-left: 5%;
+	
+}
+div#descriptivetext p span{
+	padding-top: 30px;
+	width: 60%;
+	margin-left: 20%;
+	font-size: 1.4em;
+}
+div#descriptivetext p{
+	width: 90%;
+	margin-left: 5%;
+}
+
+div#Pricing{
+	width: 100%;
+	height: 2060px;
+	line-height: 30px;
+
+}
+div#Pricing p span{
+	display: block;
+	font-weight: bolder;
+	font-size: 1.4em;
+	padding-bottom: 20px;
+}
+.pricep{
+	text-align: center;
+}
+div#essential,
+div#growth,
+div#includedessential,
+div#includedgrowth{
+	width: 90%;
+	height: 360px;
+	background: white;
+	position: relative;
+	margin-left: 5%;
+}
+div#essential,
+div#growth,
+div#enterprise
+{
+	margin-bottom: -10px;
+}
+div#essential p,
+div#includedessential p,
+div#growth p,
+div#includedgrowth p{
+
+	margin-left: 10px;
+	text-align: left;
+	padding-top: 20px;
+}
+div#Pricing p.pricep{
+	width: 80%;
+	position: relative;
+	margin-left: 10%;
+	text-align: center;
+	
+}
+div#Pricing a.getStarted{
+	width: 60%;
+	height: 40px;
+	background: black;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 20%;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 15px;
+}
+.getStarted{
+	color: white;
+}
+div#Pricing a.boukcall{
+	width: 60%;
+	height: 40px;
+	display: block;
+	margin-left: 20%;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 15px;
+	font-weight: bold;
+}
+.boukcall{
+	color: black;
+}
+.price{
+	padding-top: 15px;
+	margin-left: 10px;
+}
+div#Pricing .textprice{
+	font-weight: normal;
+}
+div#enterprise
+{
+	width: 90%;
+	height: 220px;
+	background: white;
+	position: relative;
+	margin-left: 5%;
+}
+div#includedenterprise{
+	width: 90%;
+	height: 190px;
+	background: white;
+	position: relative;
+	position: relative;
+	margin-left: 5%;
+}
+div#includedenterprise p,
+div#includedgrowth p,
+div#includedessential p{
+	margin-left: 10px;
+	font-weight: bolder;
+}
+div#enterprise p
+{
+	width: 80%;
+	height: 120px;
+	position: relative;
+	margin-left: 5%;
+	padding-top: 10px;
+}
+div#enterprise a{
+	width: 60%;
+	height: 40px;
+	display: block;
+	margin-left: 25%;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	color: black;
+	margin-top: 20px;
+	font-weight: bolder;
+}
+div#FAQs{
+	width: 100%;
+	position: relative;
+	display: block;
+	height: 350px;
+	
+}
+div#FAQs h5{
+	font-size: 1.4em;
+	text-align: center;
+	padding-top: 50px;
+}
+h6.question{
+	cursor: pointer;
+	width: 90%;
+	height: 50px;
+	position: relative;
+	margin-left: 5%;
+	border-bottom: 2px solid black;
+	z-index: 99;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 50px;
+	
+}
+figure.arrow{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	right: 0px;
+	top: 0px;
+	margin-top: 0px;
+	margin-right: 5px;
+
+}
+figure.arrow img{
+	width: 100%;
+}
+div#FAQs > p{
+    display: none;
+	width: 90%;
+	height: 250px;
+	margin-left: 5%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 30px;
+}
+div#footer{
+	display: block;
+	position: relative;
+	height: 400px;
+	background: black;
+	color: white;
+	opacity: 0.9;
+}
+div#footerlogo h2{
+	padding-top: 30px;
+	display: block;
+	width: 60%;
+	height: 50px;
+	margin-left: 5%;
+	margin-bottom: 20px;
+
+}
+div#footerlogo figure{
+	display: block;
+	width: 60%;
+	height: 70px;
+	margin-left: 5%;
+	margin-bottom: 20px;
+	opacity: .8;
+	
+	margin-top: -5px;
+}
+div#footerlogo figure img{
+    width: 30%;
+}
+div#footerlogo  figcaption{
+	width: 60%;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+nav#footlink{
+	position: relative;
+	margin-top: 40px;
+	line-height: 30px;
+
+}
+nav#footlink li{
+	list-style-type: none;
+	position: relative;
+	margin-left: -25px;
+}
+nav#footlink li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Version de tablet chiquita */
+
+
+@media screen and (min-width: 480px)
+{
+	header{
+		margin-top: 15px;
+	}
+	div#logoname{
+		width: 70%;
+	}
+	div#logoname a:hover{
+        color: 555;
+	}
+	div#logoname a{
+		margin-left: 10px;
+		font-size: 1.8em;
+	}
+	.presentationservicio a{
+		font-weight: bold;
+		margin-left: 90px;
+	}
+	.presentationservicio a:hover{
+        transform: translateY(-5px);
+        transition-duration: .3s;
+	}
+	h1{
+		font-size: 2.7em;
+	}
+	header div#logoname figure
+	{
+	margin-left: 20px;
+	}
+	#navmenu figure#showmenu
+	{
+	margin-right: 35px;
+	}
+	div.presentationservicio  a
+	{
+	display: inline-block;
+    width: 20%;
+    height: 20px;
+    margin-left: 7%;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+	}
+	a.seeplans{
+		transform: translateY(5.5px);
+	}
+	.expertshopify{
+	margin-left: 5%;
+	}
+
+	div#trustcompany{
+	    margin-top: 130px;
+	    height: 220px;
+	}
+	div#company{
+		width: 80%;
+		margin-left: 10%;
+	}
+	div#trustcompany h6{
+		width: 30%;
+		font-size: 2.3em;
+		display: inline-block;
+		margin-right: 30px;
+		margin-left: 30px;
+
+	}
+	#trustcompany :nth-last-child(4){
+		color: silver;
+	}
+
+	section#contenido2{
+		margin-bottom: 250px;
+	}
+	div#themecustom{
+		margin-bottom: 200px;
+	}
+
+	div#themecustom h2
+	{
+		width: 80%;
+		margin-left: 10%;
+		font-size: 2.5em;
+		font-weight: bolder;
+	}
+	div#themecustom p span{
+		font-size: 2.0em;
+	}
+	div#themecustom p,
+	div#themecustom li{
+		font-size: 19px;
+		line-height: 30px;
+		
+	}
+	div#themecustom ul{
+		margin-bottom: 50px;
+	}
+	figure#shopifyservices{
+		margin-left: 10%;
+
+	}
+	div#designgraphic h2{
+		font-size: 2.1em;
+
+
+	}
+	div#designgraphic p,
+	div#designgraphic li{
+		font-size: 19px;
+		line-height: 30px;
+
+	}
+	div#designgraphic ul{
+		margin-bottom: 50px;
+	}
+	
+	div#howitworks p span
+	{
+		font-size: 1.4em;
+		
+	}
+	div#bookacall > *,
+	div#suscribeplan > *,
+	div#submitrequest > *{
+		display: inline-block;
+		background: white;
+	}
+	div#bookacall figure,
+	div#suscribeplan figure,
+	div#submitrequest figure{
+		position: relative;
+		left: 0px;
+		margin-left: 0px;
+		margin-top: 50px;
+		vertical-align: bottom;
+		transform: translateY(-8px);
+	}
+	div#bookacall p,
+	div#suscribeplan p,
+	div#submitrequest p{
+		position: relative;
+		left: 0px;
+		margin-left: -20px;
+		margin-top: 50px;
+		text-align: left;
+		line-height: 30px;
+	}
+	div#submitrequest figure{
+		transform: rotate(-50deg);
+	}
+	div#descriptivetext {
+		width: 90%;
+		position: relative;
+		margin-left: 5%;
+		background: #f8f4ee;
+	}
+	div#descriptivetext p span{
+		font-size: 1.7em;
+	    width: 90%;
+		text-align: left;
+		margin-left: 0%;
+	}
+	div#descriptivetext p{
+		font-size: 19px;
+		text-align: left;
+		margin-left: 0px;
+	}
+	div#descriptivetext a{
+		margin-left: 0px;
+		width: 120px;
+		border-radius: 10px;
+		margin-top: 20px;
+	}
+	div#Pricing .pricepricing{
+		font-size: 1.9em;
+	}
+	div#Pricing p{
+		font-size: 19px;
+		margin-bottom: 40px;
+	}
+	div#essential p span,
+	div#growth p span,
+	div#enterprise p span{
+		padding-top: 20px;
+		font-size: 1.3em;
+	}
+	div#Pricing .price{
+	
+		font-size: 1.9em;
+	}
+	div#Pricing a.getStarted{
+	width: 90%;
+	height: 40px;
+	background: black;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 5%;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 15px;
+	border-radius: 10px;
+	}
+	.getStarted{
+		color: white;
+	}
+	div#Pricing a.boukcall{
+		width: 90%;
+		height: 40px;
+		display: block;
+		margin-left: 5%;
+		text-align: center;
+		text-decoration: none;
+		padding-top: 15px;
+		font-weight: bold;
+	}
+	.boukcall{
+		color: black;
+	}
+	.price{
+		padding-top: 15px;
+		margin-left: 10px;
+	}
+	div#Pricing .textprice{
+		
+		font-weight: normal;
+		
+	}
+	div#FAQs h5{
+		padding-top: 40px;
+		font-size: 1.9em;
+	}
+	div#FAQs h6{
+		font-size: 18px;
+	}
+	div#FAQs{
+		width: 100%;
+		position: relative;
+		display: block;
+		height: 400px;
+	}
+	div#footerlogo h2,
+	div#footerlogo figure{
+		width: 40%;
+		height: 70px;
+		position: relative;
+		display: inline-block;
+		margin-left: 5%;
+	}
+	div#footerlogo figure{
+		vertical-align: middle;
+	}
+	div#footerlogo h2{
+		font-size: 1.6em;
+		transform: translateY(-25px);
+	}
+	nav#footlink{
+		margin-top: -20px;
+	}
+	nav#footlink ul{
+		width: 90%;
+		height: 120px;
+	}
+	nav#footlink ul li{
+		display: inline-block;
+		width: 40%;
+	}
+
+	nav#footlink ul li a{
+		display: inline-block;
+		padding-right: 10px;
+		line-height: 30px;
+	}
+	div#footer{
+	height: 260px;
+	}
+}
+
+@media screen and (min-width: 600px){
+	.presentationservicio{
+		height:780px;
+		width: 80%;
+		margin-left: 10%;
+	}
+	.presentationservicio h1{
+		font-size: 3em;
+
+	}
+	.presentationservicio p{
+		font-size: 22px;
+
+	}
+	.presentationservicio figure{
+		width: 80%;
+		margin-left: 10%;
+	}
+	div#company{
+		width: 90%;
+		margin-left: 5%;
+	}
+	div#company h6{
+		text-align: center;
+		width: 25%;
+		margin-left: 10%;
+		display: inline-block;
+	}
+	section#contenido2{
+		background: white;
+		position: relative;
+		top: 0px;
+		margin-top: 0px;
+		height: 1550px;
+		transform: translateY(-70px);
+
+	}
+	div#themecustom h2{
+		font-size: 2.5em;
+		margin-bottom: 50px;
+		padding-top: 50px;
+	}
+	div#themecustom p span
+	{
+		font-size: 30px;
+	}
+	div#themecustom figure,
+	div#designgraphic figure
+	{
+		width: 60%;
+		margin-left: 20%;
+	}
+	div#designgraphic h2{
+		font-size: 2.2em;
+		margin-top: -60px;
+		padding-top: 60px;
+		
+	}
+	div#Pricing .pricep{
+       
+       padding-bottom: 40px;
+	}
+	div#Pricing .textprice{
+		width: 80%;
+		margin-left: 10%;
+		font-weight: normal;
+		
+	}
+	div#descriptivetext{
+		padding-top: 50px;
+	}
+	div#descriptivetext p{
+		font-size: 20px;
+		margin-left: -25px;
+	}
+	div#descriptivetext a{
+		font-weight: bold;
+	}
+	div#howitworks{
+		margin-top: -200px;
+	}
+	div#includedessential p,
+	div#includedgrowth p,
+	div#includedenterprise p{
+		margin-left: 20px;
+	}
+	div#includedenterprise p{
+		padding-top: 15px;
+	}
+	div#includedessential ul,
+	div#includedgrowth ul,
+	div#includedenterprise ul{
+		margin-left: 25px;
+	}
+    div#essential p,
+    div#growth p,
+    div#enterprise p{
+    	margin-left: 20px;
+    }
+    div#FAQs h5{
+    	font-size: 2.4em;
+    	padding-top: 100px;
+
+    }
+     div#FAQs h6{
+     	padding-bottom: 20px;
+     	line-height: 70px;
+     }
+    div#FAQs{
+    	height: 550px;
+    	
+    }
+    div#footerlogo figure{
+    	width: 200px;
+    }
+
+
+
+}
+
+
+/* VErsion tablet */
+
+@media screen and (min-width: 767px){
+    h1{
+		width: 70%;
+		line-height: 60px;
+
+	}
+	nav ul#hidemenu{
+		display: inline-block;
+	}
+	section#contenidoprincipal{
+	
+		height: 900px;
+	}
+	div.presentationservicio h1{
+		font-size: 3em;
+	}
+	div#trustcompany{
+
+		margin-bottom: 0px;
+	}
+	section#contenido2{
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 55px;
+		height: 1700px;
+	}
+	div#themecustom h2{
+		width: 70%;
+		margin-left: 15%;
+		padding-top: 80px;
+	}
+	div#designgraphic h2{
+		
+		padding-top: 130px;
+	}
+	div#bookacall,
+	div#suscribeplan,
+	div#submitrequest
+	{
+		position: relative;
+		display: inline-block;
+		height: 380px;
+		width: 25%;
+		vertical-align: top;
+		margin-left: 5%;
+	}
+	div#bookacall figure,
+	div#suscribeplan figure,
+	div#submitrequest figure{
+		
+		margin-top: 10px;
+		margin-left: 5px;
+		width: 20%;
+	}
+	div#bookacall p,
+	div#suscribeplan p,
+	div#submitrequest p{
+		
+		margin-top: -5px;
+		margin-left: 15px;
+
+	}
+	div#descriptivetext p span{
+		
+		font-size: 2em;
+
+	}
+	div#howitworks{
+		
+		height: 850px;
+	}
+	div#includedgrowth ul li.growthfirstli{
+		font-weight: bolder;
+		font-size: 1.1em;
+		
+	}
+	div#FAQs{
+		
+		height: 600px;
+	}
+	div#FAQs h5{
+		padding-top: 80px;
+	}
+
+	div#FAQs h6{
+		
+		font-weight: bolder;
+		font-size: 1.4em;
+		line-height: 50px;
+		padding-bottom: 20px;
+	}
+}
+
+
+
+/* VErsion computer desktop  */
+
+@media screen and (min-width: 950px){
+	header{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	bottom: 0px;
+	margin-bottom: 0px;
+	
+	}
+	header div#logoname{
+		position: absolute;
+		display: inline-block;
+		width: 30%;
+		height: 50px;
+		line-height: 50px;
+		margin: 0px;
+		margin-left: 50px;
+	
+	}
+	header div#logoname > *{
+		display: inline-block;
+		vertical-align: middle;
+		text-decoration: none;
+		color: rgb(0,0,0);
+		font-size: 1.6em;
+	}
+	header div#logoname figure{
+		width: 40px;
+		height: 50px;
+		margin: 0px;
+		margin-top: 5px;
+	}
+	header div#logoname figure img{
+		width: 100%;
+	}
+	#navmenu figure#showmenu{
+		
+		display: none;
+	}
+	nav ul#hidemenu{
+		position: absolute;
+		background:  #f8f4ee;
+		width: 45%;
+		height: 50px;
+		line-height: 50px;
+		list-style-type: none;
+		margin-top: 0px;
+		display: inline-block;
+		text-align: center;
+		z-index: 99;
+		right: 0px;
+		margin-right: 0px;
+		
+	}
+	nav ul#hidemenu li{
+		display: inline-block;
+
+	}
+
+	nav ul#hidemenu li a{
+		text-decoration: none;
+		position: relative;
+		color: black;
+		font-size: 1em;
+	    font-weight: bolder;
+		padding-right: 25px;
+		
+	}
+	section#contenidoprincipal{
+	
+		height: 680px;
+	}
+    div.presentationservicio {
+    	width: 95%;
+    	position: relative;
+    	margin-left: 2.5%;
+    	
+    }
+     div.presentationservicio > *
+     {
+     	position: relative;
+     	width: 45%;
+     	display: inline-block;
+     	padding-top: 60px;
+     	vertical-align: top;
+     }
+     div.presentationservicio figure
+     {
+     	position: relative;
+     	margin-left: 40px;
+     }
+     section#contenido2{
+     	background: rgb(255,255,255);
+     	width: 100%;
+     	margin: 0px;
+     	margin-bottom: 0px;
+     	position: relative;
+     	display: block;
+     }
+     section#linkcontrol{
+     	margin-top: 0px;
+     	position: relative;
+     	display: block;
+     }
+     div#themecustom,
+     div#designgraphic{
+     	width: 95%;
+     	margin-left: 2.5%;
+     	position: relative;
+     	background: white;
+     }
+
+     div#themecustom h2{
+     	position: relative;
+     	width: 50%;
+     	margin-left: 25%;
+
+     }
+     div#themecustommanager{
+     	position: relative;
+     	display: inline-block;
+     	width: 40%;
+     	margin-left: 0px;
+     	vertical-align: middle;
+    
+     }
+     div#themecustom figure{
+        position: relative;
+        display: inline-block;
+        width: 45%;
+        margin-right: 0px;
+        margin-left: 20px;
+     }
+     div#designgraphicmanager{
+     	display: inline-block;
+     	position: absolute;
+     	width: 45%;
+     	right: 0px;
+     	margin-right: 0px; 
+     }
+     div#designgraphic figure{
+     	display: inline-block;
+     	position: absolute;
+     	width: 45%;
+     	left: 0px;
+     	margin-left: 0px;
+     }
+	div#trustcompany{
+		width: 100%;
+		height: 140px;
+		
+	}
+	div#company{
+		width: 100%;
+		position: relative;
+		margin: 0px;
+	}
+	div#company h6{
+		display: inline-block;
+		width: 15%;
+		position: relative;
+		margin-left: 5%;
+	}
+	div#shopifymanager a{
+		vertical-align: top;
+	}
+	div#howitworks{
+		background:#fafafa;
+		width: 90%;
+
+	}
+	div#descriptivetext{
+		position: absolute;
+		width: 50%;
+		height: 400px;
+        right: 0px;
+        top: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        padding-top: 120px;
+       
+	}
+	div#descriptivetext p,
+	div#descriptivetext p span{
+		position: relative;
+		 text-align: left;
+
+	}
+	div#descriptivetext p,
+	div#descriptivetext p span a{
+		padding-left: 60px;
+
+	}
+	div#bookacall,
+	div#suscribeplan,
+	div#submitrequest{
+		position: relative;
+		width: 45%;
+		height: 200px;
+		margin-left: 0px;
+		display: block;
+		line-height: 200px;
+	}
+	div#bookacall p,
+	div#suscribeplan p,
+	div#submitrequest p{
+		position: absolute;
+		display: inline-block;
+		margin-left: 0%;
+		width: 60%;
+		left: 30%;
+		top: 30%;
+		
+	}
+	div#bookacall figure,
+	div#submitrequest figure,
+	div#suscribeplan figure{
+		width: 10%;
+		position: absolute;
+		display: inline-block;
+		
+	}
+	div#submitrequest figure{
+		transform: translateX(0px)
+
+	}
+	div#submitrequest figure img{
+		transform: rotate(-50deg);
+	}
+	div#Pricing{
+		position: relative;
+		width: 100%;
+		height: 1100px;
+	}
+	div.boxpricing{
+		position: relative;
+		display: inline-block;
+		width: 30%;
+		height: 800px;
+		margin-left: 2.5%;
+		vertical-align: top;
+	}
+	div#essential,
+	div#growth,
+	div#enterprise{
+		position: relative;
+		width: 100%;
+		margin: 0px;
+		top: 0px;
+		height: 400px;
+	}
+	div#enterprise a{
+		background: rgba(255,255,255,.8);
+		transform: translateY(60px);
+	}
+	div#includedessential,
+	div#includedgrowth,
+	div#includedenterprise{
+		position: relative;
+		width: 100%;
+		margin: 0px;
+		height: 400px;
+	}
+	div#FAQs{
+		
+		width: 70%;
+		margin-left: 15%;
+
+	}
+	div#footer{
+		
+	}
+	div#footer > *{
+		position: relative;
+		display: inline-block;
+		background: black;
+	    vertical-align: top;
+	    padding-top: 40px;
+	    margin-top: 0px;
+	    vertical-align: top;
+
+	}
+	nav#footlink{
+		
+		position: absolute;
+		right: 0px;
+		margin-right: 0px;
+		width: 50%;
+	}
+	div#footerlogo {
+		position: relative;
+		display: inline-block;
+		width: 40%;
+		height: 100px;
+		transform: translateY(30px);
+	}
+	div#footerlogo > *{
+		position: absolute;
+		display: inline-block;
+		
+	}
+	div#footerlogo figure{
+		position: absolute;
+		margin-right: 0px;
+		margin-top: 0px;
+		
+	}
+    div#footerlogo h2{
+    	position: relative;
+		margin-top: 0px;
+		
+    }
+} 
+
+
